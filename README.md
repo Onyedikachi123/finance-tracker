@@ -21,8 +21,8 @@ technologies.
 
 1. Clone the repository:
    ```bash
-   git clone <YOUR_REPO_URL>
-   cd lyncsAfrica-ass
+   git clone <https://github.com/Onyedikachi123/finance-tracker.git>
+   cd finance-tracker
    ```
 
 2. Install dependencies:
