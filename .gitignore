@@ -1,0 +1,43 @@
+# Dependency & Build Artifacts
+node_modules/
+dist/
+build/
+.vite/
+.cache/
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.test
+# Keep .env.example if used to share env var names
+!*.example
+
+# Logs & Debug Files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+# Allow shared vscode project config
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+
+# Test & Coverage Artifacts
+coverage/
+.nyc_output/
+
+# Temporary & Misc
+*.tmp
+*.swp
+*.bak
